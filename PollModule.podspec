@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
       LICENSE
   }
   s.author           = { "Yogev Barber" => "yogev@iband.io" }
-  s.source           = { :http => "https://raw.githubusercontent.com/doremeet/PollModule-Pod/v#{s.version}/PollModule.zip" }  
+  s.source           = { :http => "https://github.com/doremeet/PollModule-pod/blob/v#{s.version}/PollModule.zip" }  
   s.vendored_frameworks   = 'PollModule.framework'
   s.ios.deployment_target = '8.0'
   s.requires_arc          = true
