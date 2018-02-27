@@ -1,0 +1,6 @@
+framework module PollModule {
+  umbrella header "PollModule.h"
+
+  export *
+  module * { export * }
+}
