@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
       Copyright 2017 IBand, Inc. All rights reserved.
       LICENSE
   }
-  s.author           = { "Yogev Barber" => "yogev@iband.io" }
-  s.source           = { :http => "https://github.com/doremeet/PollModule-pod/blob/v#{s.version}/PollModule.zip" }  
+  s.author           = { "Yogev Barber" => "yogev@iband.io" }  
+  s.source           = { :http => "https://github.com/doremeet/PollModule-pod/blob/v#{s.version}/PollModule.zip?raw=true" }  
   s.vendored_frameworks   = 'PollModule.framework'
   s.ios.deployment_target = '8.0'
   s.requires_arc          = true
