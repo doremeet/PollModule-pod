@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
 
 @import IBandPlayerSDK;
 
@@ -99,3 +98,4 @@ typedef NS_ENUM(NSUInteger, IBandPollQuestionVotingState) {
  */
 -(NSArray<NSNumber*>*) getVotesRatio;
 @end
+

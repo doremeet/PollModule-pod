@@ -2,7 +2,7 @@
 //  PollModule.h
 //  PollModule
 //
-//  Created by Yogev Barber on 27/02/2018.
+//  Created by Yogev Barber on 06/03/2018.
 //  Copyright © 2018 IBand. All rights reserved.
 //
 
@@ -14,6 +14,7 @@ FOUNDATION_EXPORT double PollModuleVersionNumber;
 //! Project version string for PollModule.
 FOUNDATION_EXPORT const unsigned char PollModuleVersionString[];
 
-#import <PollModule-iOS/IBandPoll.h>
-#import <PollModule-iOS/IBandPollQuestion.h>
+// In this header, you should import all the public headers of your framework using statements like #import <PollModule/PublicHeader.h>
+#import <PollModule/IBandPoll.h>
+#import <PollModule/IBandPollQuestion.h>
 
