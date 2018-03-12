@@ -11,8 +11,8 @@
 @class IBandPollQuestion;
 @import IBandPlayerSDK;
 
-#define POLL_SDK_VERSION @"0.1.1"
-#define POLL_SDK_BUILD_NUMBER @"3"
+#define POLL_SDK_VERSION @"0.1.3"
+#define POLL_SDK_BUILD_NUMBER @"4"
 
 @protocol IBandPollDelegate <IBandInteractionDelegate>
 /*!

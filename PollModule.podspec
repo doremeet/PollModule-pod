@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PollModule'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'PollModule - poll intergration for IBandPlayerSDK'
   s.homepage              = "http://www.iband.io"
   s.description      = <<-DESC
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks   = 'PollModule.framework'
   s.ios.deployment_target = '8.0'
   s.requires_arc          = true
-  s.dependency 'IBandPlayerSDK', '~> 0.3.6'
+  s.dependency 'IBandPlayerSDK', '~> 0.3.11'
   s.dependency 'AFNetworking', '~> 3.0'
 end

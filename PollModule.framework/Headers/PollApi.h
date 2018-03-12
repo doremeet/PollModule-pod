@@ -10,6 +10,6 @@
 
 @interface PollApi : NSObject
 -(instancetype)initWithSDK:(IBandSDK*)sdk;
--(void) postVote:(NSString*)questionId params:(NSDictionary*)params success:(void (^)(id data))success failure:(void (^)(NSError *error))failure;
+-(void) postVote:(NSString*)questionId params:(NSDictionary*)params success:(void (^)(NSDictionary *data))success failure:(void (^)(NSError *error))failure;
 @end
 
