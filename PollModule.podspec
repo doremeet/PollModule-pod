@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author           = { "Yogev Barber" => "yogev@iband.io" }    
   s.source           = { :http => "https://github.com/doremeet/PollModule-pod/blob/v#{s.version}/PollModule.zip?raw=true" }  
   s.vendored_frameworks   = 'PollModule.framework'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.2'
   s.requires_arc          = true
   s.dependency 'IBandPlayerSDK', '~> 0.3.11'
   s.dependency 'AFNetworking', '~> 3.0'
